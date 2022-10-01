@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar{
+    background-color: burlywood;
+    font-family: 'Lora', serif;
+    /* width: 15vw; */
+    height: 100vh;
+    transition: transform 0.4s ease-in;
+    position: absolute;
+}
+
+.sidebar nav{
+    padding: 40px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 20px 0px;
+}
+
+.sidebargo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar nav li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.main{
+    /* background-color: darkgoldenrod; */
+    width: 87vw;
+    transition: transform 0.3s ease-in;
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    /* background-color: cadetblue; */
+    height: 60vh;
+    width: 80vw;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bolder;
+}
+
+.hello{
+    font-size: 60px;
+}
+
+.name{
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+}
+
+.about{
+    font-size: 40px;
+}
+
+.moreabout{
+    font-size: 22px;
+    font-family: 'Lora', serif;
+}
+
+.buttons{
+    margin-top: 34px;
+}
+
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+
+.btn-sm{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn-sm:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+
+.devpic img{
+    height: 60vh;
+}
+
+.contactform{
+    padding: 0 14px;
+    padding-top: 80px;
+    font-family: 'Lora', serif;
+    margin: 10px 90px;
+}
+
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    /* text-align: center; */
+    padding: 12px 0px;
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 12px;
+    color: midnightblue;
+    margin: 0 3px;
+    padding: 3px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+#headingblog{
+    margin: 10px 90px;
+    font-family: 'Lora', serif;
+}
+
+.blogitems{
+    margin: 20px 90px 5px 90px;
+}
+
+.blogitems h3{
+    font-size: 21px;
+    font-family: 'Lora', serif;
+}
+
+.blogitems p{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+
+.btn-vsm{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 10px;
+    margin: 0 90px;
+    cursor: pointer;
+}
+
+.btn-vsm:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+
+.aboutme h2{
+    margin: 15px 15px 10px 15px;
+    font-family: 'Lora', serif;
+}
+
+.aboutme{
+    margin: 10px 90px;
+}
+
+.aboutme p{
+    margin: 0 15px 10px 15px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bolder;
+}
+
+.myskills{
+    margin: 10px 90px;
+}
+
+.myskills h2{
+    margin: 15px 15px 10px 15px;
+    font-family: 'Lora', serif;
+}
+
+.skills{
+    margin: 15px;
+    display: flex;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+
+.bar100{
+    background-color: aqua;
+    border: 3px solid black;
+    width: 300px;
+    margin-left: 5px;
+    height: 10px;
+}
+
+.bar50{
+    background-color: rgb(255, 128, 0);
+    border: 3px solid black;
+    width: 180px;
+    margin-left: 5px;
+    height: 10px;
+}
+
+.bar70{
+    background-color: rgb(76, 0, 255);
+    border: 3px solid black;
+    width: 220px;
+    margin-left: 5px;
+    height: 10px;
+}
+
+.bar80{
+    background-color: rgb(26, 255, 0);
+    border: 3px solid black;
+    width: 280px;
+    margin-left: 5px;
+    height: 10px;
+}
+
+.bar90{
+    background-color: rgb(187, 0, 255);
+    border: 3px solid black;
+    width: 280px;
+    margin-left: 5px;
+    height: 10px;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham{
+    height: 25px;
+}
+
+.cross{
+    height: 25px;
+    margin-left: 160px;
+}
+
+/* @media (max-width: 920px) {
+    .sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }
+} */
+
+@media (max-width: 1170px) {
+    .sidebar nav{
+        padding: 40px 0;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+}
+
+@media (max-width: 780px) {
+    .devpic{
+        display: none;
+    }
+    .intro, .blogitems, .aboutme, .contactform, .myskills, .main, .hello{
+        margin: 8px;
+        padding: 0px;
+        padding-top: 20px;
+        position: relative;
+    }
+}
+
+@media (max-width: 417px){
+    .btn{
+        font-size: 18px;
+    }
+    .hello{
+        padding-top: 0px;
+        font-size: 43px;
+        margin: 0px;
+    }
+    .moreabout{
+        margin-top: 25px;
+    }
+    .buttons{
+        margin-top: 15px;
+    }
+    .infocontainer{
+        margin: 40px auto;
+    }
+    .cross{
+        margin-left: 85px;
+        top: 0px;
+        z-index: 0;
+    }
+    .main{
+        z-index: -2;
+    }
+    .sidebar{
+        z-index: -1;
+    }
+    #headingblog{
+        font-size: 30px;
+        margin: 25px auto;
+        text-align: center;
+        margin-bottom: 0px;
+        text-decoration: underline;
+    }
+    .btn-vsm{
+        margin: 5px;
+    }
+}
+
+@media (max-width: 375) {
+    
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TanayDev - Web Developer, Programmer, Student</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar sidebargo">
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/intro.html">My Intro</a></li>
+                    <li><a href="/services.html">Services</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="hamburger">
+                <img src="ham.png" alt="hamburger logo" class="ham">
+                <img src="cross.png" alt="cross logo" class="cross">
+            </div>
+            <div class="contactform">
+                <h1>Contact me for Work/General Quieries</h1>
+                <form>
+                    <div class="form-group">
+                      <label for="clientname">Name</label>
+                      <input type="name" class="form-control" id="clientname" aria-describedby="emailHelp" placeholder="Enter your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="clientmail">Email address</label>
+                        <input type="email" class="form-control" id="clientmail" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email & phone with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="clientphone">Phone</label>
+                        <input type="phone" class="form-control" id="clientphone" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group">
+                      <label for="clientenquiry">Enquiry</label>
+                      <input type="enquiry" class="form-control" id="clientenquiry" aria-describedby="emailHelp" placeholder="Enter your Enquiry">
+                    </div>
+                    <div id="form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">I want you to work on a project with me</label>
+                    </div>
+                    <button type="submit" class="btn-sm">Submit</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
