@@ -343,7 +343,7 @@
         z-index: 0;
     }
     .main{
-        z-index: -2;
+/*         z-index: -2;  */
     }
     .sidebar{
         z-index: -1;
